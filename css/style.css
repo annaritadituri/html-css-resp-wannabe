@@ -144,6 +144,47 @@ img {
 
 }
 
- 
 
- 
+@media screen and (max-width: 480px) {
+
+    .container {
+        max-width: 480px;
+        width: 100%;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    img {
+        margin-top: 3.5rem;
+    }
+
+    h2 {
+        margin-bottom: 0rem;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .why-us img {
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+}
